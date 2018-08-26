@@ -1,0 +1,11 @@
+App\Model\Author:
+    exclusion_policy: ALL
+    properties:
+        id:
+            expose: true
+            type: int
+            groups: ['Bench']
+        name:
+            expose: true
+            type: string
+            groups: ['Bench']

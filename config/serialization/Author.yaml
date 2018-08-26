@@ -1,0 +1,4 @@
+App\Model\Author:
+    attributes:
+        id: { groups: ['Bench']}
+        name: { groups: ['Bench']}

@@ -1,0 +1,15 @@
+App\Model\Page:
+    exclusion_policy: ALL
+    properties:
+        id:
+            expose: true
+            type: int
+            groups: ['Bench']
+        content:
+            expose: true
+            type: string
+            groups: ['Bench']
+        number:
+            expose: true
+            type: int
+            groups: ['Bench']

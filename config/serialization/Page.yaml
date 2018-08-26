@@ -1,0 +1,5 @@
+App\Model\Page:
+    attributes:
+        id: { groups: ['Bench']}
+        content: { groups: ['Bench']}
+        number: { groups: ['Bench']}

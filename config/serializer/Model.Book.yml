@@ -1,0 +1,23 @@
+App\Model\Book:
+    exclusion_policy: ALL
+    properties:
+        id:
+            type: int
+            expose: true
+            groups: ['Bench']
+        title:
+            type: string
+            expose: true
+            groups: ['Bench']
+        author:
+            type: App\Model\Author
+            expose: true
+            groups: ['Bench']
+        pages:
+            type: array<App\Model\Page>
+            expose: true
+            groups: ['Bench']
+        releasedAt:
+            type: DateTime
+            expose: true
+            groups: ['Bench']

@@ -1,0 +1,7 @@
+App\Model\Book:
+    attributes:
+        id: { groups: ['Bench']}
+        title: { groups: ['Bench']}
+        author: { groups: ['Bench']}
+        pages: { groups: ['Bench']}
+        releasedAt: { groups: ['Bench']}
